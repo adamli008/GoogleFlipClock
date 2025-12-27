@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D04390F12EFFE11F00B2D2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04390D92EFFE11E00B2D2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04390E02EFFE11E00B2D2B5;
+			remoteInfo = GoogleFlipClock;
+		};
+		D04390FB2EFFE11F00B2D2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04390D92EFFE11E00B2D2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04390E02EFFE11E00B2D2B5;
+			remoteInfo = GoogleFlipClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D04390E12EFFE11E00B2D2B5 /* GoogleFlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleFlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04390F02EFFE11F00B2D2B5 /* GoogleFlipClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFlipClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04390FA2EFFE11F00B2D2B5 /* GoogleFlipClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFlipClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D04390E32EFFE11E00B2D2B5 /* GoogleFlipClock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoogleFlipClock;
+			sourceTree = "<group>";
+		};
+		D04390F32EFFE11F00B2D2B5 /* GoogleFlipClockTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoogleFlipClockTests;
+			sourceTree = "<group>";
+		};
+		D04390FD2EFFE11F00B2D2B5 /* GoogleFlipClockUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoogleFlipClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04390DE2EFFE11E00B2D2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390ED2EFFE11F00B2D2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390F72EFFE11F00B2D2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04390D82EFFE11E00B2D2B5 = {
+			isa = PBXGroup;
+			children = (
+				D04390E32EFFE11E00B2D2B5 /* GoogleFlipClock */,
+				D04390F32EFFE11F00B2D2B5 /* GoogleFlipClockTests */,
+				D04390FD2EFFE11F00B2D2B5 /* GoogleFlipClockUITests */,
+				D04390E22EFFE11E00B2D2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04390E22EFFE11E00B2D2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04390E12EFFE11E00B2D2B5 /* GoogleFlipClock.app */,
+				D04390F02EFFE11F00B2D2B5 /* GoogleFlipClockTests.xctest */,
+				D04390FA2EFFE11F00B2D2B5 /* GoogleFlipClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04390E02EFFE11E00B2D2B5 /* GoogleFlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04391042EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClock" */;
+			buildPhases = (
+				D04390DD2EFFE11E00B2D2B5 /* Sources */,
+				D04390DE2EFFE11E00B2D2B5 /* Frameworks */,
+				D04390DF2EFFE11E00B2D2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D04390E32EFFE11E00B2D2B5 /* GoogleFlipClock */,
+			);
+			name = GoogleFlipClock;
+			packageProductDependencies = (
+			);
+			productName = GoogleFlipClock;
+			productReference = D04390E12EFFE11E00B2D2B5 /* GoogleFlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04390EF2EFFE11F00B2D2B5 /* GoogleFlipClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04391072EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockTests" */;
+			buildPhases = (
+				D04390EC2EFFE11F00B2D2B5 /* Sources */,
+				D04390ED2EFFE11F00B2D2B5 /* Frameworks */,
+				D04390EE2EFFE11F00B2D2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04390F22EFFE11F00B2D2B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D04390F32EFFE11F00B2D2B5 /* GoogleFlipClockTests */,
+			);
+			name = GoogleFlipClockTests;
+			packageProductDependencies = (
+			);
+			productName = GoogleFlipClockTests;
+			productReference = D04390F02EFFE11F00B2D2B5 /* GoogleFlipClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04390F92EFFE11F00B2D2B5 /* GoogleFlipClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D043910A2EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockUITests" */;
+			buildPhases = (
+				D04390F62EFFE11F00B2D2B5 /* Sources */,
+				D04390F72EFFE11F00B2D2B5 /* Frameworks */,
+				D04390F82EFFE11F00B2D2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04390FC2EFFE11F00B2D2B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D04390FD2EFFE11F00B2D2B5 /* GoogleFlipClockUITests */,
+			);
+			name = GoogleFlipClockUITests;
+			packageProductDependencies = (
+			);
+			productName = GoogleFlipClockUITests;
+			productReference = D04390FA2EFFE11F00B2D2B5 /* GoogleFlipClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04390D92EFFE11E00B2D2B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D04390E02EFFE11E00B2D2B5 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D04390EF2EFFE11F00B2D2B5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D04390E02EFFE11E00B2D2B5;
+					};
+					D04390F92EFFE11F00B2D2B5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D04390E02EFFE11E00B2D2B5;
+					};
+				};
+			};
+			buildConfigurationList = D04390DC2EFFE11E00B2D2B5 /* Build configuration list for PBXProject "GoogleFlipClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04390D82EFFE11E00B2D2B5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D04390E22EFFE11E00B2D2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04390E02EFFE11E00B2D2B5 /* GoogleFlipClock */,
+				D04390EF2EFFE11F00B2D2B5 /* GoogleFlipClockTests */,
+				D04390F92EFFE11F00B2D2B5 /* GoogleFlipClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04390DF2EFFE11E00B2D2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390EE2EFFE11F00B2D2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390F82EFFE11F00B2D2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04390DD2EFFE11E00B2D2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390EC2EFFE11F00B2D2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04390F62EFFE11F00B2D2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04390F22EFFE11F00B2D2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04390E02EFFE11E00B2D2B5 /* GoogleFlipClock */;
+			targetProxy = D04390F12EFFE11F00B2D2B5 /* PBXContainerItemProxy */;
+		};
+		D04390FC2EFFE11F00B2D2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04390E02EFFE11E00B2D2B5 /* GoogleFlipClock */;
+			targetProxy = D04390FB2EFFE11F00B2D2B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D04391022EFFE11F00B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D04391032EFFE11F00B2D2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D04391052EFFE11F00B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D04391062EFFE11F00B2D2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D04391082EFFE11F00B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleFlipClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleFlipClock";
+			};
+			name = Debug;
+		};
+		D04391092EFFE11F00B2D2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleFlipClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleFlipClock";
+			};
+			name = Release;
+		};
+		D043910B2EFFE11F00B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GoogleFlipClock;
+			};
+			name = Debug;
+		};
+		D043910C2EFFE11F00B2D2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GoogleFlipClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04390DC2EFFE11E00B2D2B5 /* Build configuration list for PBXProject "GoogleFlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04391022EFFE11F00B2D2B5 /* Debug */,
+				D04391032EFFE11F00B2D2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04391042EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04391052EFFE11F00B2D2B5 /* Debug */,
+				D04391062EFFE11F00B2D2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04391072EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04391082EFFE11F00B2D2B5 /* Debug */,
+				D04391092EFFE11F00B2D2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D043910A2EFFE11F00B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D043910B2EFFE11F00B2D2B5 /* Debug */,
+				D043910C2EFFE11F00B2D2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04390D92EFFE11E00B2D2B5 /* Project object */;
+}
