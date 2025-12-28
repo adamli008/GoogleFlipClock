@@ -6,7 +6,6 @@ struct GoogleFlipClockApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .frame(minWidth: 640, minHeight: 360)
                 .preferredColorScheme(.dark)
         }
         .windowStyle(.hiddenTitleBar)
@@ -17,17 +16,8 @@ struct GoogleFlipClockApp: App {
         MenuBarExtra("Flip Clock", systemImage: "clock") {
             Button("Show/Hide Clock") {
                 NSApp.activate(ignoringOtherApps: true)
-                if let window = NSApp.windows.first(where: { $0.canBecomeKey }) {
-                    window.makeKeyAndOrderFront(nil)
-                }
+                NSApp.windows.first?.makeKeyAndOrderFront(nil)
             }
-            Divider()
-            
-            // Access shared mode manager directly
-            Button("Clock Mode") { ModeManager.shared.currentMode = .clock }
-            Button("Timer Mode") { ModeManager.shared.currentMode = .timer }
-            Button("Countdown Mode") { ModeManager.shared.currentMode = .countdown }
-            
             Divider()
             Button("Quit") {
                 NSApp.terminate(nil)
