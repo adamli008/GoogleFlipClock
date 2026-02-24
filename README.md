@@ -16,6 +16,7 @@ A premium, mechanical-style flip clock application built with SwiftUI for macOS.
 - **Responsive Layout**: Automatically scales to maintain a 16:9 aspect ratio at any window size.
 - **Menu Bar Integration**: Quick access and mode switching directly from the macOS menu bar.
 - **Premium Aesthetics**: Dark-mode optimized with soft gradients, subtle shadows, and mechanical hinge details.
+- **Screen Saver**: Same flip clock as a macOS screen saver (GoogleFlipClockSaver) — select it in System Settings.
 
 ## 🛠 Technical Details
 
@@ -35,6 +36,12 @@ A premium, mechanical-style flip clock application built with SwiftUI for macOS.
 - **Switch Modes**: Use the navigation bar at the bottom or the "Switch Mode" menu in the Menu Bar.
 - **Reset Timer/Countdown**: Click the circular reset button to return to your last set time.
 - **Custom Countdown**: Type any number of minutes in the countdown field and click "Set".
+
+## 🖥 Screen Saver
+
+1. In Xcode, select the **GoogleFlipClockSaver** scheme and press **Cmd + B** to build.
+2. The built product is at `build/Build/Products/Debug/GoogleFlipClockSaver.saver` (or the Release path).
+3. Install: double-click the `.saver` file to open Screen Saver options, or copy it to `~/Library/Screen Savers/`, then choose **GoogleFlipClockSaver** in **System Settings → Screen Saver**.
 
 ---
 *Created with care to bring mechanical charm to modern desktops.*

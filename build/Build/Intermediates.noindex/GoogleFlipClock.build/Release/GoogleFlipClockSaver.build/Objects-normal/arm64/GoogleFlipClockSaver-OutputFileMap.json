@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary.swiftconstvalues",
+    "dependencies" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary.d",
+    "diagnostics" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary.dia",
+    "emit-module-dependencies" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary-emit-module.dia",
+    "pch" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/GoogleFlipClockSaver-primary.swiftdeps"
+  },
+  "/Users/adamli/Xcode/GoogleFlipClock/GoogleFlipClockSaver/FlipClockSaverView.swift" : {
+    "index-unit-output-path" : "/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/FlipClockSaverView.o",
+    "llvm-bc" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/FlipClockSaverView.bc",
+    "object" : "/Users/adamli/Xcode/GoogleFlipClock/build/Build/Intermediates.noindex/GoogleFlipClock.build/Release/GoogleFlipClockSaver.build/Objects-normal/arm64/FlipClockSaverView.o"
+  }
+}

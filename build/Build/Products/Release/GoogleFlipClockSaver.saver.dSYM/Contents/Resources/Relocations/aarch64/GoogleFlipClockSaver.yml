@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adamli/Xcode/GoogleFlipClock/build/Build/Products/Release/GoogleFlipClockSaver.saver/Contents/MacOS/GoogleFlipClockSaver'
+relocations:     []
+...

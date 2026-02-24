@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>349AF787-8F2D-4701-8FFA-9379409D172E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>349AF787-8F2D-4701-8FFA-9379409D172E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GoogleFlipClock project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GoogleFlipClockSaver</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project GoogleFlipClock with scheme GoogleFlipClockSaver and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>793594406.64207101</real>
+			<key>timeStoppedRecording</key>
+			<real>793594407.26585102</real>
+			<key>title</key>
+			<string>Cleaning project GoogleFlipClock with scheme GoogleFlipClockSaver and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>349AF787-8F2D-4701-8FFA-9379409D172E</string>
+		</dict>
+		<key>CF1ECF1E-676D-4C07-8878-DA557C2815F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CF1ECF1E-676D-4C07-8878-DA557C2815F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>GoogleFlipClock project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GoogleFlipClockSaver</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project GoogleFlipClock with scheme GoogleFlipClockSaver and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>793593177.27073503</real>
+			<key>timeStoppedRecording</key>
+			<real>793593177.86284494</real>
+			<key>title</key>
+			<string>Cleaning project GoogleFlipClock with scheme GoogleFlipClockSaver and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>CF1ECF1E-676D-4C07-8878-DA557C2815F0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

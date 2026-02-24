@@ -14,6 +14,7 @@
 - **响应式布局**：在任何窗口尺寸下都能自动缩放并保持 16:9 的黄金比例。
 - **菜单栏集成**：支持通过 macOS 菜单栏快速访问及切换模式。
 - **高级美学**：针对深色模式优化，具有柔和渐变、细腻阴影和机械铰链细节。
+- **屏保程序**：提供同款翻页时钟屏保（GoogleFlipClockSaver），可在系统设置中选用。
 
 ## 🛠 技术详情
 
@@ -33,6 +34,14 @@
 - **切换模式**：使用底部的导航栏或菜单栏中的“切换模式”菜单。
 - **重置计时/倒计时**：点击圆形的重置按钮，即可返回上一次设置的时长。
 - **设置自定义倒计时**：在倒计时字段中输入分钟数并点击“Set”即可。
+
+## 🖥 屏保安装与使用
+
+1. 在 Xcode 中选择 **GoogleFlipClockSaver** scheme，按 **Cmd + B** 构建。
+2. 构建产物在：`build/Build/Products/Debug/GoogleFlipClockSaver.saver`（或 Release 对应路径）。
+3. 安装方式任选其一：
+   - **方式 A**：双击 `GoogleFlipClockSaver.saver`，在弹出窗口中点击“屏幕保护程序选项”旁的“测试”预览，再在系统设置里选择“GoogleFlipClockSaver”即可。
+   - **方式 B**：将 `GoogleFlipClockSaver.saver` 复制到 `~/Library/Screen Savers/`，然后在 **系统设置 → 屏幕保护程序** 中选择“GoogleFlipClockSaver”。
 
 ---
 *精雕细琢，为现代桌面注入机械魅力。*

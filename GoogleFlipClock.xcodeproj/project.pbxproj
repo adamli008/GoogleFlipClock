@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D04391192EFFE12000B2D2B5 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D043911A2EFFE12000B2D2B5 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D04390F12EFFE11F00B2D2B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6EA7DC52F3EED08002E37B9 /* GoogleFlipClockSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleFlipClockSaver.saver; path = /Users/adamli/Xcode/GoogleFlipClock/build/Debug/GoogleFlipClockSaver.saver; sourceTree = "<absolute>"; };
 		D04390E12EFFE11E00B2D2B5 /* GoogleFlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleFlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04390F02EFFE11F00B2D2B5 /* GoogleFlipClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFlipClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04390FA2EFFE11F00B2D2B5 /* GoogleFlipClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFlipClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D043911A2EFFE12000B2D2B5 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +49,11 @@
 		D04390FD2EFFE11F00B2D2B5 /* GoogleFlipClockUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GoogleFlipClockUITests;
+			sourceTree = "<group>";
+		};
+		D04391112EFFE12000B2D2B5 /* GoogleFlipClockSaver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoogleFlipClockSaver;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,16 +80,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D04391122EFFE12000B2D2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04391192EFFE12000B2D2B5 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6EA7DB02F3ED95A002E37B9 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				D043911A2EFFE12000B2D2B5 /* ScreenSaver.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D04390D82EFFE11E00B2D2B5 = {
 			isa = PBXGroup;
 			children = (
 				D04390E32EFFE11E00B2D2B5 /* GoogleFlipClock */,
+				D04391112EFFE12000B2D2B5 /* GoogleFlipClockSaver */,
 				D04390F32EFFE11F00B2D2B5 /* GoogleFlipClockTests */,
 				D04390FD2EFFE11F00B2D2B5 /* GoogleFlipClockUITests */,
 				D04390E22EFFE11E00B2D2B5 /* Products */,
+				C6EA7DB02F3ED95A002E37B9 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +192,28 @@
 			productReference = D04390FA2EFFE11F00B2D2B5 /* GoogleFlipClockUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D04391152EFFE12000B2D2B5 /* GoogleFlipClockSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04391162EFFE12000B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockSaver" */;
+			buildPhases = (
+				D04391142EFFE12000B2D2B5 /* Sources */,
+				D04391122EFFE12000B2D2B5 /* Frameworks */,
+				D04391132EFFE12000B2D2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D04391112EFFE12000B2D2B5 /* GoogleFlipClockSaver */,
+			);
+			name = GoogleFlipClockSaver;
+			packageProductDependencies = (
+			);
+			productName = GoogleFlipClockSaver;
+			productReference = C6EA7DC52F3EED08002E37B9 /* GoogleFlipClockSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +235,9 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = D04390E02EFFE11E00B2D2B5;
 					};
+					D04391152EFFE12000B2D2B5 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 				};
 			};
 			buildConfigurationList = D04390DC2EFFE11E00B2D2B5 /* Build configuration list for PBXProject "GoogleFlipClock" */;
@@ -201,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				D04390E02EFFE11E00B2D2B5 /* GoogleFlipClock */,
+				D04391152EFFE12000B2D2B5 /* GoogleFlipClockSaver */,
 				D04390EF2EFFE11F00B2D2B5 /* GoogleFlipClockTests */,
 				D04390F92EFFE11F00B2D2B5 /* GoogleFlipClockUITests */,
 			);
@@ -229,6 +284,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D04391132EFFE12000B2D2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,6 +309,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D04390F62EFFE11F00B2D2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04391142EFFE12000B2D2B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +395,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -400,7 +469,7 @@
 				DEVELOPMENT_TEAM = Q5M9MYLM7T;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = "";
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -433,7 +502,7 @@
 				DEVELOPMENT_TEAM = Q5M9MYLM7T;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
+				ENABLE_PREVIEWS = "";
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -535,6 +604,58 @@
 			};
 			name = Release;
 		};
+		D04391172EFFE12000B2D2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GoogleFlipClockSaver/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		D04391182EFFE12000B2D2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5M9MYLM7T;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GoogleFlipClockSaver/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../Resources",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamli.GoogleFlipClockSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,6 +691,15 @@
 			buildConfigurations = (
 				D043910B2EFFE11F00B2D2B5 /* Debug */,
 				D043910C2EFFE11F00B2D2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04391162EFFE12000B2D2B5 /* Build configuration list for PBXNativeTarget "GoogleFlipClockSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04391172EFFE12000B2D2B5 /* Debug */,
+				D04391182EFFE12000B2D2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
